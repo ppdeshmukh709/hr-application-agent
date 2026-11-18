@@ -1,0 +1,67 @@
+{
+  "roles": [
+    {
+      "name": "HRBP",
+      "keywords": [
+        "HR Business Partner",
+        "HRBP",
+        "People Partner",
+        "Business HR"
+      ]
+    },
+    {
+      "name": "Talent Acquisition",
+      "keywords": [
+        "Talent Acquisition",
+        "Recruitment",
+        "Talent Partner",
+        "Leadership Hiring"
+      ]
+    },
+    {
+      "name": "Talent Management",
+      "keywords": [
+        "Talent Management",
+        "Succession Planning",
+        "Performance Management"
+      ]
+    },
+    {
+      "name": "Organizational Development",
+      "keywords": [
+        "Organizational Development",
+        "Organization Effectiveness",
+        "OD",
+        "Change Management"
+      ]
+    },
+    {
+      "name": "HR Technology / Transformation",
+      "keywords": [
+        "HR Transformation",
+        "HR Technology",
+        "HRIS",
+        "People Analytics",
+        "Digital HR"
+      ]
+    }
+  ],
+  "platform_priority": [
+    "LinkedIn",
+    "Naukri",
+    "Indeed",
+    "IIMJobs",
+    "Company Portal"
+  ],
+  "daily_target_min": 30,
+  "daily_target_max": 40,
+  "target_fit_score": 80,
+  "weights": {
+    "role_relevance": 0.3,
+    "experience_eligibility": 0.2,
+    "company_quality": 0.15,
+    "compensation": 0.15,
+    "location": 0.1,
+    "skills_match": 0.1
+  }
+}

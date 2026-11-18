@@ -1,0 +1,32 @@
+{
+  "full_name": "CANDIDATE_NAME",
+  "email": "candidate@example.com",
+  "phone": "",
+  "current_location": "Mumbai, India",
+  "education": [
+    {
+      "degree": "MBA HR",
+      "institution": "NMIMS",
+      "graduation_year": 2025
+    }
+  ],
+  "experience_years_claimed": null,
+  "experience_dates_verified": false,
+  "current_ctc_lpa": null,
+  "expected_ctc_min_lpa": null,
+  "expected_ctc_max_lpa": null,
+  "notice_period_days": null,
+  "relocation_willing": true,
+  "target_locations": [
+    "Pan India"
+  ],
+  "target_roles": [
+    "HRBP",
+    "Talent Acquisition",
+    "Talent Management",
+    "Organizational Development",
+    "HR Technology",
+    "HR Transformation"
+  ],
+  "cv_path": "cv/candidate_cv.pdf"
+}

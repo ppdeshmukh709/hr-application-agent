@@ -1,0 +1,36 @@
+# Candidate data and CVs
+config/candidate.local.json
+cv/*
+!cv/.gitkeep
+
+# Secrets and browser state
+.env
+.env.*
+!.env.example
+.secrets/
+.auth/
+.browser/
+playwright/.auth/
+**/cookies*
+**/*token*
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local database and exports
+data/*.db
+data/*.sqlite*
+reports/*
+!reports/.gitkeep
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
