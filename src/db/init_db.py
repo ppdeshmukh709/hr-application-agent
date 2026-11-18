@@ -1,7 +1,7 @@
 from pathlib import Path
 import sqlite3
 
-DB_PATH = Path("data/applications.db")
+DB_PATH = Path(__file__).parent.parent.parent / "data" / "applications.db"
 
 SCHEMA = '''
 PRAGMA foreign_keys = ON;

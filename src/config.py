@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-PROFILE_PATH = Path("config/candidate.local.json")
+PROFILE_PATH = Path(__file__).parent.parent / "config" / "candidate.local.json"
 
 def load_candidate() -> dict:
     if not PROFILE_PATH.exists():
